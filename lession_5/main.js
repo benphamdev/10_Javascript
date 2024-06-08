@@ -25,23 +25,23 @@ var address = "thai binh city";
 
 
 //  * replace : ko chuyen tham chieu
-    // console.log(address.replace(/thai/g, 'Thai'));// th nhieu thai 
+// console.log(address.replace(/thai/g, 'Thai'));// th nhieu thai 
 
 //  * convert to upper case
-    // console.log(address.toUpperCase());
+// console.log(address.toUpperCase());
 
 //  * conver to lower case
-    // console.log(address.toLowerCase());
+// console.log(address.toLowerCase());
 
 //  * trim
-    // console.log("              ok              ".trim());
+// console.log("              ok              ".trim());
 
 //  * split
-    // var fullName = "pham - duy - chien";
-    // console.log(fullName.split(''));
+// var fullName = "pham - duy - chien";
+// console.log(fullName.split(''));
 
 //  * get a character by index
 
-    const s = "oke";
-    // console.log(s.charAt(0));
-    console.log(s[0]);
+const s = "oke";
+// console.log(s.charAt(0));
+console.log(s[0]);

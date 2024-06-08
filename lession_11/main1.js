@@ -40,7 +40,7 @@ Array.prototype.myFilter = function (cb) {
     return ans;
 }
 
-// var ans = courses.filter(function (course, index, arr) {
+// var ans = courses.filter((course, index, arr) => {
 //     return course.coin > 100;
 // })
 // var ans = courses.myFilter(function (course, index, arr) {

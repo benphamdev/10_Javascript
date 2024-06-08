@@ -61,7 +61,7 @@ console.log(list)
 /* 
 var i = 0;
 var totalCoin = courses.reduce(function(accumulator, currentValue, currentIndex, originArray) {
-    i++;
+    i++;    
     var total = accumulator + currentValue.coin;
     console.table({
         'luot chay : ' : i,
@@ -131,10 +131,14 @@ var tagHtml = newCourse.map(function (items) {
 // }
 
 // ex2
-// var arr = [
-//     ['name', 'Sơn Đặng'],
-//     ['age', 18],
-// ];
+var arr = [
+    ['name', 'Sơn Đặng'],
+    ['age', 18],
+];
+
+function arrToObj(arr) {
+    return a.reduce((res, arr) => res[arr[0]] = arr[1], {});
+}
 
 // function arrToObj(a) {
 //     return a.reduce(function (res, items) {
@@ -149,10 +153,9 @@ var tagHtml = newCourse.map(function (items) {
 //         return res;
 //     }, {})
 // }
-// function arrToObj(a) {
-//     return a.reduce(function (obj, arr) {
-//         return { ...obj, [arr[0]]: arr[1] }
-//     }, {})
+
+// function arrToObj(arr) {
+//     return arr.reduce((res, a) => { return { ...res, [a[0]]: a[1] } }, {});
 // }
 
 
