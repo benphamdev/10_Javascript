@@ -53,7 +53,7 @@ Array.prototype.myFilter = function (cb) {
 // var ans = courses.some(function (course, index, arr) {
 //     return course.isFinish == true;
 // })
-Array.prototype.mySome = function (cb) {
+Array.prototype.mySome = function (cb) => {
     for (var index in this) {
         if (this.hasOwnProperty(index)) {
             if (cb(this[index], index, this))
@@ -68,7 +68,7 @@ Array.prototype.mySome = function (cb) {
 
 // 3.every
 
-Array.prototype.myEvery = function (cb) {
+Array.prototype.myEvery = function (cb) => {
     for (var index in this) {
         if (this.hasOwnProperty(index)) {
             if (!cb(this[index], index, this))

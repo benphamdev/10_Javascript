@@ -20,6 +20,7 @@ let course = {
 // console.log(name);
 
 let { name, description = 'default description' } = course;
+
 // console.log(description);
 
 function logger(a, b, ...params) {
@@ -33,7 +34,6 @@ function logger1({ name, description }) {
 }
 
 logger1({ name: 'java', description: 'okemon' });
-
 
 // 10. spread
 
@@ -62,7 +62,6 @@ function solve(...rest) {// rest operator
 
 solve(...arr); // spread array
 
-
 // 11. tagged template literal
 
 function hightlight([first, ...arr], ...rest) {
@@ -86,8 +85,9 @@ let html = hightlight`learn programming ${course1} from ${brand}`;
 // import * as constants from "./main.js";
 // logger2('oke', constants[0]);
 
-// import user from '../lession_8/main.js';
-import { user2 } from '../lession_8/main.js';
+// import user from '../lesson_8/main.js';
+import { user2 } from '../lesson_8/main.js';
+
 var author = new user2(
     'John',
     'Doe',

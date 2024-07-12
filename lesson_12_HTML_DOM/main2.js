@@ -3,6 +3,7 @@
 var headingElement = document.querySelector('h2');
 
 headingElement.className = 'heading2';//cach 1 : seter
+
 headingElement.setAttribute('href', 'link')// cach2 : method
 
 var headingEle = document.querySelector('.heading');

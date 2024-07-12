@@ -8,9 +8,7 @@ boxElement.innerHTML = "<h1>Heading</h1>";
 
 // console.log([boxElement]);
 
-
-
-// bai 148  : DOM Style 
+// bai 148  : DOM Style
 
 // console.log(boxElement.style);
 
@@ -23,7 +21,6 @@ boxElement.innerHTML = "<h1>Heading</h1>";
 //     height: '200px',
 //     backgroundColor: 'red'
 // });
-
 
 // bai 150 : ClassList Property thuoc tinh cua element Node
 

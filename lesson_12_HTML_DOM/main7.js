@@ -1,4 +1,4 @@
-// 1. Event Listener
+// 1. Event Listener vs Dom Event
 // 2. JSON
 // 3. Fetch
 // 4. DOM location
@@ -7,10 +7,9 @@
 // 7. Coding convention
 // 8. Best practice
 // 9. Mistakes
-// 10. Performane
+// 10. Performance
 
-
-// 1. xử lí nhiều việc khi 1 event xảy 
+// 1. xử lí nhiều việc khi 1 event xảy
 // 2. lắng nghe / hủy bỏ lắng nghe
 
 var btn = document.getElementById('btn');

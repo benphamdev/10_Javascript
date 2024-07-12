@@ -1,10 +1,10 @@
 // 1. preventDefault
 // 2. stopPropagation
 
-// var aElements = document.anchors; co attribute name
-// var aElements = document.links; //ko can
+// let aElements = document.anchors; co attribute name, deprecated
+// let aElements = document.links; //ko can
 
-// for (var i = 0; i < aElements.length; i++) {
+// for (let i = 0; i < aElements.length; i++) {
 //     aElements[i].onclick = function (e) {
 //         if (!e.target.href.startsWith("http://f8.edu.vn")) {
 //             e.preventDefault();
@@ -12,7 +12,7 @@
 //     }
 // }
 
-// var ulElement = document.querySelector('ul');
+// let ulElement = document.querySelector('ul');
 
 // ulElement.onmousedown = function (e) {
 //     e.preventDefault();
@@ -21,7 +21,7 @@
 //     console.log(e.target);
 // };
 
-
+// stopPropagation
 document.querySelector('div').onclick = function (e) {
     console.log('DIV');
 }
